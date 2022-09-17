@@ -15,7 +15,7 @@ struct ContentView: View {
             Button(action: {
                 // ボタンが押された際の処理
             }) {
-                Text("良い感じのボタン")
+                Text("輪郭も押せるボタン")
                     .padding()
                     .accentColor(Color.white)
                     .background(Color.black)
@@ -27,7 +27,7 @@ struct ContentView: View {
             Button(action: {
                 // ボタンが押された際の処理
             }) {
-                Text("ミスしてるボタン")
+                Text("文字しか押せないボタン")
             }
             .padding()
             .accentColor(Color.white)
